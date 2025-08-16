@@ -55,55 +55,6 @@
 			"response": []
 		},
 		{
-			"name": "Auth - CreateToken Copy",
-			"event": [
-				{
-					"listen": "test",
-					"script": {
-						"id": "3d828f25-d4b6-4902-b445-9d4d84e708f0",
-						"exec": [
-							""
-						],
-						"type": "text/javascript",
-						"packages": {}
-					}
-				}
-			],
-			"id": "41529532-be6fccc9-1ef2-4d7b-b168-a8e9413f9e3b",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "POST",
-				"header": [
-					{
-						"key": "Content-Type",
-						"value": "application/json"
-					}
-				],
-				"body": {
-					"mode": "raw",
-					"raw": "{\r\n    \"username\" : \"admin\",\r\n    \"password\" : \"password123\"\r\n}",
-					"options": {
-						"raw": {
-							"language": "json"
-						}
-					}
-				},
-				"url": {
-					"raw": "{{url}}/auth",
-					"host": [
-						"{{url}}"
-					],
-					"path": [
-						"auth"
-					]
-				},
-				"description": "Generated from cURL: curl -X POST \\\r\n  https://restful-booker.herokuapp.com/auth \\\r\n  -H 'Content-Type: application/json' \\\r\n  -d '{\r\n    \"username\" : \"admin\",\r\n    \"password\" : \"password123\"\r\n}'"
-			},
-			"response": []
-		},
-		{
 			"name": "GetBookingIds(All IDs)",
 			"id": "41529532-c7ef087c-e39f-4066-bba3-87da70eb5661",
 			"protocolProfileBehavior": {
