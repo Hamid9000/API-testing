@@ -9,18 +9,6 @@
 			"name": "Integration senario",
 			"item": [
 				{
-					"name": "New Request",
-					"id": "41529532-6cca9fd0-f7ab-4c4b-8bd7-5bdb73583c00",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
-					"request": {
-						"method": "GET",
-						"header": []
-					},
-					"response": []
-				},
-				{
 					"name": "Auth - CreateToken Copy",
 					"event": [
 						{
