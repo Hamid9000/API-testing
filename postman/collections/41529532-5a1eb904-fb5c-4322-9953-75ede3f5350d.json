@@ -6,6 +6,11 @@
 	},
 	"item": [
 		{
+			"name": "New Folder",
+			"item": [],
+			"id": "41529532-01b7cc9f-ebb4-427a-bc7a-97c193155347"
+		},
+		{
 			"name": "Auth - CreateToken",
 			"event": [
 				{
