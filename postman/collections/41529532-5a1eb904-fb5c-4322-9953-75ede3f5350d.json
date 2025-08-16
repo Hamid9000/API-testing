@@ -366,6 +366,55 @@
 				"description": "Generated from cURL: curl -i https://restful-booker.herokuapp.com/ping"
 			},
 			"response": []
+		},
+		{
+			"name": "uploadImage",
+			"id": "41529532-c6f20a92-da69-43a5-8286-971886452a63",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "accept",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"type": "text",
+							"key": "additionalMetadata",
+							"value": "asfcasfc"
+						},
+						{
+							"type": "file",
+							"contentType": "image/png",
+							"key": "file",
+							"src": "chatgpt.com_c_689ed10d-0f00-8330-9fac-cfc87df1679b.png"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://petstore.swagger.io/v2/pet/123/uploadImage",
+					"protocol": "https",
+					"host": [
+						"petstore",
+						"swagger",
+						"io"
+					],
+					"path": [
+						"v2",
+						"pet",
+						"123",
+						"uploadImage"
+					]
+				},
+				"description": "Generated from cURL: curl -X 'POST' \\\r\n  'https://petstore.swagger.io/v2/pet/123/uploadImage' \\\r\n  -H 'accept: application/json' \\\r\n  -H 'Content-Type: multipart/form-data' \\\r\n  -F 'additionalMetadata=asfcasfc' \\\r\n  -F 'file=@chatgpt.com_c_689ed10d-0f00-8330-9fac-cfc87df1679b.png;type=image/png'"
+			},
+			"response": []
 		}
 	]
 }
