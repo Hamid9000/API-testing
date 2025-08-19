@@ -415,6 +415,36 @@
 				"description": "Generated from cURL: curl -X 'POST' \\\r\n  'https://petstore.swagger.io/v2/pet/123/uploadImage' \\\r\n  -H 'accept: application/json' \\\r\n  -H 'Content-Type: multipart/form-data' \\\r\n  -F 'additionalMetadata=asfcasfc' \\\r\n  -F 'file=@chatgpt.com_c_689ed10d-0f00-8330-9fac-cfc87df1679b.png;type=image/png'"
 			},
 			"response": []
+		},
+		{
+			"name": "Authontication",
+			"id": "41529532-54262dea-843a-4cf3-b4be-be6446333a5c",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "\"username\" : \"admin\",\r\n    \"password\" : \"password123\"",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/auth\n",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"auth\n"
+					]
+				}
+			},
+			"response": []
 		}
 	]
 }
